@@ -1,0 +1,32 @@
+.About {
+    padding-top: 100px;
+    padding-left: 100px;
+    text-align: left;
+    background-color: #dad6d691;
+    height: calc(100vh - 60px);
+}
+
+.About h1 {
+    width: 80%;
+    border-bottom: 1px solid gray;
+}
+
+.Detail {
+    margin-bottom: 10px;
+}
+
+.About .AboutMe {
+    font-size: 30pt;
+    border-bottom: none;
+}
+
+@media (max-width: 500px) {
+    .About {
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .Illustrate img {
+        display: none;
+    }
+}

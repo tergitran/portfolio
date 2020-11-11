@@ -1,0 +1,50 @@
+.Home {
+    padding: 100px;
+    text-align: left;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: row;
+    background-color: #ced4da;
+}
+
+.Description {
+    padding-left: 100px;
+    padding-right: 50px;
+    width: 48vw;
+    flex: initial;
+    /* background-color: aquamarine; */
+}
+
+@media (max-width: 500px) {
+    .Description {
+        padding-left: 2vw;
+    }
+    .Illustrate img {
+        display: none;
+    }
+}
+
+.Home h2 {
+    font-size: 8vw;
+}
+
+.Home h3 {
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.Illustrate {
+    /* width: 300px; */
+    margin-top: 50px;
+    float: 1;
+    /* flex: auto; */
+    /* position: relative; */
+    /* position: fixed; */
+    /* float: right; */
+    /* height: 100%; */
+    /* float: right; */
+}
+
+.Illustrate img {
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.Projects {
+    padding-top: 30px;
+    background-color: #ced4da;
+    height: calc(100vh - 60px);
+}
+
+.CardsContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    /* background-color: cadetblue; */
+}

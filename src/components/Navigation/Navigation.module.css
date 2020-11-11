@@ -1,0 +1,23 @@
+/* .Navigation {
+} */
+
+.NavigationItems {
+    font-size: large;
+    display: flex;
+    list-style: none;
+    color: #cb997e;
+}
+
+.NavigationItems li {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #495057;
+}
+
+a .active {
+    color: #0de2e2;
+}
