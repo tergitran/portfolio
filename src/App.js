@@ -10,12 +10,12 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header>
-          <div className='logo'><Link to='/'>Dn</Link></div>
+          <div className='logo'><Link to='/portfolio'>Dn</Link></div>
           <Navigation />
         </header>
         <main>
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/portfolio'>
               <Home />
             </Route>
             <Route path='/projects'>
