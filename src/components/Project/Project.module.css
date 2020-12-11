@@ -11,11 +11,13 @@
     width: 100%;
 }
 
+
+
 .Link {
     display: inline-block;
     text-decoration: none;
     color: aliceblue;
-    width: 150px;
+    width: 130px;
     font-size: medium;
     padding: 10px;
     background-color: #ee6c4d;
@@ -31,4 +33,13 @@
 
 .Buttons {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 480px) {
+    /* .Link {
+        width: 100px;
+    } */
 }

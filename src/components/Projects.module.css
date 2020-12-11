@@ -1,7 +1,7 @@
 .Projects {
     padding-top: 30px;
     background-color: #ced4da;
-    height: calc(100vh - 60px);
+    /* height: calc(100vh - 60px); */
 }
 
 .CardsContainer {
